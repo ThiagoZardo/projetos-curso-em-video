@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Verificador de Idade</title>
+</head>
+<body>
+
+    <header>
+        <h1 id= "titulo">Verificador de Idade</h1>
+    </header>
+
+    
+    <section class = "container">
+
+       
+            <p>Ano de Nascimento: 
+                <input type="number" name="ano" id="selecionaAno" min="1">
+            </p>    
+            
+            
+            <p class = "sexo">Sexo:   
+                <input id="masc" type="radio" name="check" >
+                <label>Masculino</label>
+                <input id="fem" type="radio" name="check" >
+                <label>Feminino</label>
+            </p>
+
+            
+                <input id="button" type="submit" value="Verificar" onclick="verificar()">
+            
+
+            
+            <p id="res">Preencha os dados acima por favor!</p>
+            
+
+
+        <div class="foto">
+           <img id="imagem" src="images/"
+        </div>
+
+    </section><!--container-->
+
+
+    <footer>
+        <p>&copy; Thiago Zardo</p>
+    </footer>
+    
+
+
+
+    <script src="js/functions.js"></script>
+</body>
+</html>
