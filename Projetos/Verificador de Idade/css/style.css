@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    height: 100%;
+    background-color: rgb(96, 118, 240);
+}
+
+#titulo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container p, input[type=number]{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container input[type=submit]{
+    display: block;
+    margin: 15px 20px 0 20px;
+}
+
+#selecionaAno{
+    width: 70px;
+}
+
+
+#button{
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+#masc,#fem{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#imagem{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 250px;
+    
+    display: none;
+}
+
+
+
+
+footer p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
